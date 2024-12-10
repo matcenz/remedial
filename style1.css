@@ -1,0 +1,292 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: transparent;
+}
+
+    
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(5, 5, 5);
+    margin-right: 20 5 3px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #28a745;
+}
+
+/* Home Section Styles */
+#home {
+    text-align: center;
+    padding: 200px 0;
+    background: url('IMAGE/pexels3.jpg') no-repeat center center/cover;
+    color:rgb(244, 236, 236)    ;
+}
+
+#home h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.5rem;
+}
+
+/* About Section Styles */
+#about {
+    padding: 80px 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Rooms Section Styles */
+#rooms {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.room-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.room-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.room-card h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.room-card p {
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.book-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #218838;
+}
+
+.room-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Services Section Styles */
+#services {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card i {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+}
+
+.service-card p {
+    color: #666;
+}
+
+.service-card:hover {
+    background-color: #e2e6ea;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Gallery Section Styles */
+#gallery {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Reviews Section Styles */
+#reviews {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.review-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.review-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.review-card p {
+    color: #666;
+}
+.review-photo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the image circular */
+    display: block;
+    margin: 0 auto 10px auto; /* Center the image and add some margin below it */
+}
+
+
+/* Contact Section Styles */
+#contact {
+    padding: 80px 0;
+    background: url('IMAGE/profil7.jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* This will make the background image look more dynamic */
+    color: rgb(14, 14, 15);
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form .btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.footer-item i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: responsive design for small screens */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
